@@ -27,6 +27,7 @@ namespace Exam
                 arr[i].length = Convert.ToInt32(parts[1]);
                 arr[i].diameter = Convert.ToDouble(parts[2]);
                 arr[i].thickness = Convert.ToDouble(parts[3]);
+                //fdfdfsdjfsjdfiodsjfjsdiofjijoapuihplu;
                 if (String.IsNullOrEmpty(parts[4]))
                 {
                     arr[i].isReinforced = false;
